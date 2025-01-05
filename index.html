@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>index.html</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            table{
+            border: 3px inset black; /*Tablonun etrafında çerçeve oluşturur.*/
+            border-collapse: collapse; /*Kenarlıkları birleştirilir ve hücre arası boşlukları kaldırır.*/
+            padding: 10px; /*Tablo içi boşluk oluşturur.*/
+            text-align: center; /*Yazıyı ortaya ayarlar.*/
+            vertical-align: middle; /*Dikey olarak ortaya hizalar.*/
+            margin: 0 auto; /*Tabloyu yatayda ortalamak için.*/
+            width: 80%; /*Tablonun genişliğini ayarlar.*/
+            height: 300px; /*Tablonun yüksekliğini ayarlamak için.*/
+            }
+            th, td{
+            border: 1px inset black; /*Tablonun etrafında çerçeve oluşturur.*/
+            border-collapse: collapse; /*Kenarlıkları birleştirilir ve hücre arası boşlukları kaldırır.*/
+            text-align: center; /*Yazıyı ortaya ayarlar.*/
+            vertical-align: middle; /*Dikey olarak ortaya hizalar.*/
+            padding: 10px; /*Hücre içi boşluk oluşturur.*/
+            font-family: Arial, Helvetica, sans-serif; /*Yazı tipidir.*/
+            font-size: 15px; /*Yazının boyutunu ayarlar.*/
+            }
+            h1{
+            display: flex; /*Esnek düzenleme sağlar.*/
+            justify-content: center; /*Dikeyde ortalamak için.*/
+            align-items: center; /*Alan içindeki öğeleri dikeyde ortalar.*/
+            height: 100vh; /*Yazının yüksekliğini ayarlamak için.*/
+            margin: 0; /*Tüm yönlerdeki boşluğu kaldırır.*/
+            font-size: 60px; /*Yazının boyutunu ayarlar.*/
+            }
+            h2{
+            text-align: center; /*Yazıyı ortaya ayarlar.*/
+            }
+            main{
+            background-image: url(gri\ arka\ plan.jpg); /*Arka plan resmi.*/
+            background-size: cover; /*Resmi tamamen kaplaması için ölçeklendirir.*/
+            background-position: center; /*Resmi ortalar.*/
+            width: 100%; /*Sayfanın tamamını kaplaması için yaptık.*/
+            }
+            header{
+            height: 50px; /*İçeriğin yüksekliğini ayarlamak için.*/
+            padding: 10px; /*İçerik etrafında boşluk oluşturur.*/
+            }
+            p{
+            text-align: justify; /*Metni iki yana yaslar.*/
+            margin: 20px auto; /*Ortalamak için.*/
+            text-indent: 50px; /*İlk satır boşluğu.*/
+            width: 90%; /*İçeriğin genişliği.*/
+            padding: 20px; /*İçerik etrafında boşluk oluşturur.*/
+            font-family: Arial, Helvetica, sans-serif; /*Yazı tipidir.*/
+            font: size 20px; /*Yazının boyutunu ayarlar.*/
+            }
+            body{
+            max-width: 100%; /*Maksimum genişliği pencerenin genişliğine göre sınırlar.*/
+            overflow-x: hidden; /*Sayfanın yatay taşmasını engeller.*/ 
+            margin: 0; /*Tüm dış boşlukları sıfırlar.*/
+            padding: 0; /*Tüm iç boşlukları sıfırlar.*/
+            }
+        </style>
+    </head>
+    <body>
+        <header class="banner">
+            
+            <h1>Londra Rehberi</h1>
+            <nav>
+                <!--Menü-->
+                <ul class="nav_list">
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="sayfa1.html">Keşfet</a></li>
+                    <li><a href="sayfa2.html">Planla</a></li>
+                    <li><a href="sayfa3.html">Deneyimle</a></li>
+                    <li><a href="sayfa4.html">Güncel</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <br><br>
+
+        <main>
+            <br>
+            <!--Londra hakkında kısa bilgilendirme.-->
+            <h2>Londra Hakkında</h2>
+            <p>Yaklaşık 2000 yıl önce Romalılar tarafından kurulduğu kabul edilen Londra, dünyanın en eski şehirlerinden biridir. 
+            Londinium adı ile kurulmuştur ve anlamının akan nehir olabileceği tahmin edilmektedir. 
+            Londra İngiltere'nin başkenti ve en kalabalık şehridir. 
+            Kalabalık olmasının yanı sıra bir çok farklı medeniyetten insanın yaşar. 
+            Nüfusu 9 milyona yakındır.
+            Resmi dil olarak İngilizce, para birimi olarak İngiliz Sterlini(pound &pound;) kullanılır.
+            Mimari, tarihi, ticaret, moda, finans, turizm ve ulaşım alanlarında dünya sıralamalarında ilk sıralarda bulunan şehirlerinden biridir.
+            Ayrıca Londra dünyanın en büyük finans merkezlerinden biridir ve bir çok tarihi eserin sergilendiği müzelere sahiptir.
+            Londra'da ulaşım çok gelişmiştir, örneğin metro hattı 1863 yılında açılmıştır ve 11 hatta ulaşım yapmaktadır.
+            Bunun yanında Londra dünyanın en çok ziyaret edilen şehirlerinden biridir ve bir çok gezilecek mekana sahiptir.
+            İklimine bakacak olursak ılıman okyanusal iklime sahiptir, bu nedenle yazlar genellikle ılık, kışlar genellikle serindir.
+            Londra Avrupa'da yüksek eğitim kurumlarının en yoğun olduğu şehirdir ve QS Dünya Üniversiteleri Sıralama listesine göre dünyadaki en iyi üniversitelerin en yoğun olduğu şehirdir.</p>
+
+            <br><br>
+            <!--Turist saysısnı gösteren tablo.-->
+            <h2>Son 5 Yılda Londra'ya Gelen Turist Sayısı</h2>
+            <table style="table-layout: fixed; width: 500px;">
+                <tr>
+                    <th>Yıl</th>
+                    <th>Gelen Turist Sayısı(milyon)</th>
+                    <th>Turistlerden Gelen Gelir(milyar &pound;)</th>
+                </tr>
+
+                <tr>
+                    <td>2019</td>
+                    <td>21.71</td>
+                    <td>15.70 &pound;</td>
+                </tr>
+
+                <tr>
+                    <td>2020</td>
+                    <td>3.70</td>
+                    <td>2.56 &pound;</td>
+                </tr>
+
+                <tr>
+                    <td>2021</td>
+                    <td>2.72</td>
+                    <td>2.69 &pound;</td>
+                </tr>
+
+                <tr>
+                    <td>2022</td>
+                    <td>16.13</td>
+                    <td>14.15 &pound;</td>
+                </tr>
+
+                <tr>
+                    <td>2023</td>
+                    <td>20.28</td>
+                    <td>16.70 &pound;</td>
+                </tr>
+
+            </table>
+            <br><br><br>
+        </main>
+    </body>
+</html>

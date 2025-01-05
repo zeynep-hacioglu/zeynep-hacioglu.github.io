@@ -1,0 +1,66 @@
+/* Banner alanı için arka plan resmi ekleyeceğiz.*/
+.banner{
+    height: 100vh; /*Yüksekliği belirler.*/
+    width: 100%; /*Sayfanın tamamını kaplaması için yaptık.*/
+    background-image: url('londra.jpg'); /*Resim*/
+    background-size: cover; /*Resmi tamamen kaplaması için ölçeklendirir.*/
+    background-position: center; /*Resmi ortalar.*/
+    background-repeat: no-repeat; /*Resmin tekrarlanmasını engeller.*/
+    color: white; /*Yazı rengidir.*/
+    text-align: center; /*Metni ortalar.*/
+}
+
+/*Navigasyon listesidir.*/
+.nav_list{
+    display: flex; /*Esnek düzenleme sağlar.*/
+    list-style-type: none; /*Listelerin başındaki işaretleri kaldırır.*/
+}
+
+/*Listedeki bağlantıları gösterir.*/
+.nav_list li{
+    float: left; /*Bağlantıları sola hizlar.*/
+    width: 225px;
+}
+
+/*Bağlantıların isimlerinin düzenlenmesini sağlar.*/
+.nav_list a{
+    text-decoration: none; /*Etiketin altındaki çizgiyi kaldırır.*/
+    background-color:white;
+    display: block;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 3px;
+    color: black; /*Yazı rengidir.*/
+    font-weight: bold; /*Yazıyı kalın yapar.*/
+    font-size: 15px; /*Yazının boyutunu belirtir.*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Etiketlerin üzerine gelince değişecek bölümleri ayarlar.*/
+nav a:hover{
+    color: white; /*Etiketin üzerine gelinince yazıyı beyaz yapar.*/
+    background-color: grey; /*Etiketin üzerine gelinince arkayı gri yapar.*/
+}
+
+/*Sayfaların arka planını ayarlar.*/
+.arka_plan{
+    background-size: cover; /*Resmi tamamen kaplaması için ölçeklendirir.*/
+    background-position: center; /*Resmi ortalar.*/
+    background-image: url(gri\ arka\ plan.jpg); /*Arka plan resmi*/
+    width: 100%; /*Sayfanın tamamını kaplaması için yaptık.*/
+}
+
+/*Resmin sağda gözükmesini sağlamak için.*/
+.img_right{
+    float: right; /*Resmi sağa hizlar.*/
+    margin-right: 40px; /*Resmin sağ tarafında boşluk bıraktırır.*/
+    margin-left: 20px; /*Resmin sol tarafında boşluk bıraktırır.*/
+}
+
+/*Resmin solda gözükmesini sağlamak için.*/
+.img_left{
+    float: left; /*Resmi sola hizlar.*/
+    margin-left: 20px; /*Resmin sol tarafında boşluk bıraktırır.*/
+    margin-right: 20px; /*Resmin sağ tarafında boşluk bıraktırır.*/
+    margin-top: 15px; /*Resmin üst tarafında boşluk bıraktırır.*/
+}
+

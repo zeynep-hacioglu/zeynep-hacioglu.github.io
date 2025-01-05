@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sayfa4.html</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table{
+            border: 3px inset black; /*Tablonun etrafında çerçeve oluşturur.*/
+            border-collapse: collapse; /*Kenarlıkları birleştirilir ve hücre arası boşlukları kaldırır.*/
+            padding: 10px; /*Tablo içi boşluk oluşturur.*/
+            text-align: center; /*Yazıyı ortaya ayarlar.*/
+            vertical-align: middle; /*Dikey olarak ortaya hizalar.*/
+            margin: 0 auto; /*Tabloyu yatayda ortalamak için*/
+            width: 60%; /*Tablonun genişliği*/
+            height: 250px; /*Tablonun yüksekliğini ayarlamak için*/
+        }
+        th, td{
+            border: 1px inset black; /*Tablonun etrafında çerçeve oluşturur.*/
+            border-collapse: collapse; /*Kenarlıkları birleştirilir ve hücre arası boşlukları kaldırır.*/
+            text-align: center; /*Yazıyı ortaya ayarlar.*/
+            vertical-align: middle; /*Dikey olarak ortaya hizalar.*/
+            padding: 10px; /*Hücre içi boşluk oluşturur.*/
+            font-family: Arial, Helvetica, sans-serif; /*Yazı tipi*/
+            font-size: 15px; /*Yazının boyutu*/
+        }
+        h2{
+            text-align: center; /*Yazıyı ortaya ayarlar.*/
+        }
+        ol{
+            margin: 20px auto; /*Ortalamak için*/
+            width: 90%; /*İçeriğin genişliği*/
+            padding-left: 60px; /*İçerik etrafında soldan boşluk oluşturur.*/
+            padding-right: 30px; /*İçerik etrafında sağdan boşluk oluşturur.*/
+            font-family: Arial, Helvetica, sans-serif; /*Yazı tipidir.*/
+            font-size: 15px; /*Yazının boyutunu ayarlar.*/
+        }
+        img{
+            width: 300px; /*Resmin genişliğini ayarlamak için*/
+            height: 200px; /*Resmin yüksekliğini ayarlamak için*/
+            object-fit: cover; /*Resmi taşmadan aynı boyutta ayarlama.*/
+            justify-content: space-between; /*Resimler arasında eşit boşluk bırakır.*/
+            padding: 5px; /*İçerik etrafında boşluk oluşturur.*/
+            gap: 300px; /*Resimler arası boşluk için*/
+            margin-left: 50px; /*Resmin sol tarafında boşluk bıraktırır.*/
+            margin-right: 40px; /*Resmin sağ tarafında boşluk bıraktırır.*/
+            border: 5px double black; /*Resimlerin etrafında çerçeve oluşturur.*/
+        }
+        p{
+            font-family: Arial, Helvetica, sans-serif; /*Yazı tipidir.*/
+            font-size: 15px; /*Yazının boyutunu ayarlar.*/
+        }
+        body{
+        max-width: 100%; /*Maksimum genişliği pencerenin genişliğine göre sınırlar.*/
+        overflow-x: hidden; /*Sayfanın yatay taşmasını engeller.*/ 
+        margin: 0; /*Tüm dış boşlukları sıfırlar.*/
+        padding: 0; /*Tüm iç boşlukları sıfırlar.*/
+        }
+    </style>
+</head>
+<body class="arka_plan">
+    <header>
+        <h4 style="padding-left: 20px;">BİLGİLENDİRME</h4>
+        <p style="padding-left: 20px; font-family: Arial, Helvetica, sans-serif; font-size: 15px;">Bu sayfada Londra'da yapabileceğiniz ücretli ve ücretsiz aktivitelerin bazılarını, hava durumunu ve Londra seyahatinizde öğrenmeniz gereken pratik bilgileri öğreneceksiniz.</p>
+        <hr>
+    </header>
+    <main>
+        <!--Londra'da yapabileceğiniz etkinlikler hakkında bilgi.-->
+        <h2>Yapabileceğiniz Etkinlikler</h2>
+        <table>
+            <tr>
+                <th>Ücretsiz Etkinlikler</th>
+                <th>Ücretli Etkinlikler (&pound;)</th>
+            </tr>
+
+            <tr>
+                <td>Big Ben</td>
+                <td>London Eye</td>
+            </tr>
+
+            <tr>
+                <td>Sky Garden Gezisi</td>
+                <td>Londra Kulesi ve Kraliyet Mücevherleri Sergisi</td>
+            </tr>
+
+            <tr>
+                <td>Piccadilly Circus</td>
+                <td>Tower Bridge Gezisi</td>
+            </tr>
+
+            <tr>
+                <td>Notting Hill</td>
+                <td>Thames Nehri Gezisi</td>
+            </tr>
+
+            <tr>
+                <td>Kensington Bahçeleri</td>
+                <td>Noel Işıkları Gece Otobüs Turu (Yılbaşı)</td>
+            </tr>
+        </table>
+
+        <br><br><br>
+
+        <!--Londra'daki bir haftalık hava durumu.-->
+        <h2>Hava Durumu</h2>
+        <table>
+            <tr>
+                <th>Günler</th>
+                <th>Durum</th>
+                <th>En Düşük</th>
+                <th>En Yüksek</th>
+            </tr>
+
+            <tr>
+                <td>04.01.25 Cmt</td>
+                <td>Yağmurlu</td>
+                <td>-1&deg;</td>
+                <td>3&deg;</td>
+            </tr>
+
+            <tr>
+                <td>05.01.25 Paz</td>
+                <td>Yağmurlu</td>
+                <td>1&deg;</td>
+                <td>13&deg;</td>
+            </tr>
+
+            <tr>
+                <td>06.01.25 Pzt</td>
+                <td>Yağmurlu</td>
+                <td>1&deg;</td>
+                <td>11&deg;</td>
+            </tr>
+
+            <tr>
+                <td>07.01.25 Sal</td>
+                <td>Yağmurlu</td>
+                <td>1&deg;</td>
+                <td>4&deg;</td>
+            </tr>
+
+            <tr>
+                <td>08.01.25 Çar</td>
+                <td>Güneşli</td>
+                <td>-1&deg;</td>
+                <td>3&deg;</td>
+            </tr>
+
+            <tr>
+                <td>09.01.25 Per</td>
+                <td>Parçalı Bulutlu</td>
+                <td>-2&deg;</td>
+                <td>3&deg;</td>
+            </tr>
+
+            <tr>
+                <td>10.01.25 Cum</td>
+                <td>Bulutlu</td>
+                <td>2&deg;</td>
+                <td>6&deg;</td>
+            </tr>
+        </table>
+
+        <br><br><br>
+
+        <!--Londra'da işinize yarayacak pratik bilgiler.-->
+        <h2>Pratik Bilgiler</h2>
+        <p>
+            <ol type="I" style="line-height: 1.5;">
+                <li> Londra'da her an yağmur yağabilme ihtimali olduğu için mutlaka şemsiyenizi alın.</li>
+                <li> Toplu taşıma kullanacaksanız kolay geçiş sağlamak için temassız olan kredi kartınızı yurt dışına açtırın.</li>
+                <ul>
+                    <li> Kredi kartından daha ucuza toplu taşımayı kullanmak istiyorsanız oyster card alabilirsiniz.</li>
+                </ul>
+                <li> Sabah 7.00-9.00 ve akşam 17.00-19.00 arası toplu taşıma daha kalabalıktır. Bu nedenle gezilerinizi bu saatleri dikkate alarak ayarlayabilirsiniz.</li>
+                <li> Gitmeden önce metro ağını anlamak ve varmak istediğiniz yere en kısa ulaşımı sağlamak için internet olmadığında da kullanabileceğiniz bir uygulama indirin.</li>
+                <li> Gelmeden önce gezeceğiniz yerlerin planını yapın.</li>
+                <li> Londra'da prizler üçlü olduğu için buraya gelmeden priz dönüştürücüsü almakta fayda var.</li>
+                <li> Londra ve Türkiye arasında yazın 2 kışın 3 saat, saat farkı bulunmaktadır. 
+                Londara'ya ilk defa gidiyorsanız varacağınız saati saat farkına göre hesaplamanız sizin için daha iyi olacaktır.</li>
+                <li> Buraya gelmeden önce yanınıza İngiltere'nin para birimi olan pound almayı unutmayın.</li>
+            </ol> 
+        <br>   
+        </p>
+        <img src="yagmurlu_londra.jpg" alt="Yağmurlu Londra">
+        <img src="oyster_card.webp" alt="Oyster Card">
+        <img src="londra_metro _ağı.jpg" alt="Londra'daki Metro Ağı">
+    
+        <br>
+
+    </main>
+    <p style="padding-left: 20px; font-family: Arial, Helvetica, sans-serif; font-size: 15px;">Ana sayfaya dönmek için <a href="index.html">tıklayın.</a></p>
+</body>
+</html>

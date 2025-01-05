@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sayfa1.html</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        p{
+            font-family: Arial, Helvetica, sans-serif; /*Yazı tipidir.*/
+            font-size: 15px; /*Yazının boyutunu ayarlar.*/
+        }
+        .p{
+            text-align: justify; /*Metni düzgün hizalar.*/
+            margin: 20px auto; /*Ortalamak için.*/
+            text-indent: 20px; /*İlk satır boşluğu.*/
+            width: 95%; /*İçeriğin genişliği.*/
+            padding-left: 5px; /*İçerik etrafında soldan boşluk oluşturur.*/
+            padding-right: 25px; /*İçerik etrafında sağdan boşluk oluşturur.*/
+            font-family: Arial, Helvetica, sans-serif; /*Yazı tipidir.*/
+            font-size: 15px; /*Yazının boyutunu ayarlar.*/
+        }
+        h3{
+            text-align: center; /*Yazıyı ortaya ayarlar.*/
+            font-size: 27px; /*Yazının boyutunu ayarlar.*/
+        }
+        li{
+            padding-left: 10px; /*İçerik etrafında soldan boşluk oluşturur.*/
+            font-size: 17px; /*Yazının boyutunu ayarlar.*/
+            font-family: Arial, Helvetica, sans-serif; /*Yazı tipidir.*/
+        }
+        img{
+            width: 200px; /*Resmin genişliğini ayarlamak için*/
+            height: 150px; /*Resmin yüksekliğini ayarlamak için*/
+            object-fit: cover; /*Resimleri ölçüye taşmadan ve bozulmadan sığdırır.*/
+            border: 5px double black; /*Resimlerin etrafında çerçeve oluşturur.*/
+            padding: 5px; /*İçerik etrafında boşluk oluşturur.*/
+        }
+        body{
+        max-width: 100%; /*Maksimum genişliği pencerenin genişliğine göre sınırlar.*/
+        overflow-x: hidden; /*Sayfanın yatay taşmasını engeller.*/ 
+        margin: 0; /*Tüm dış boşlukları sıfırlar.*/
+        padding: 0; /*Tüm iç boşlukları sıfırlar.*/
+        }
+    </style>
+</head>
+<body class="arka_plan">
+    <header>
+        <h4 style="padding-left: 20px;">BİLGİLENDİRME</h4>
+        <p style="padding-left: 20px; font-family: Arial, Helvetica, sans-serif; font-size: 15px;">Bu sayfada Londra'daki turistik yerleri, tarihi yerleri ve doğal alanları tanıyacaksınız.</p>
+        <hr>
+    </header>
+    <main>
+        <!--Turistik yerleri tanıtan yazılar.-->
+        <h3>Turistik Yerler</h3>
+        <ul style="list-style: circle;">
+            <li><b>Buckingham Sarayı</b></li>
+            <img class="img_right" src="buckingham_palace.avif" alt="Buckingham Palace">
+            <p class="p">İngiliz Kraliyet ailesinin ikametgah yeri olmasının yanı sıra Buckingham Sarayı turistik öneme sahip ünlü yapılardan biridir. 
+                İngiliz yönetiminin merkezi ve resmi tören ve etkinliklerin düzenlendiği bir yerdir. 
+                1837 yılından itibaren kraliyet ailesinin resmi ikamet ettiği yer olmuştur. 
+                Saray neo-klasik tarzda yapılmıştır. 
+                Buraya gidenlerin ilgisini çeken en önemli şeylerden birisi de askerlerin nöbet değişimidir(Changing the Guard). 
+                Askerler sadece nöbet değişimi sırasında hareket ederler. 
+                Ayrıca yaz aylarında sarayın bazı bölümleri ziyarete açılır.</p>
+
+                <br><br><br><br><br><br>
+
+            <li><b>Tower of London</b></li>
+            <img  class="img_left" src="tower_of_london.jpg" alt="Tower of London">
+            <p class="p">1078 yılında 1.William tarafından yaptırılan Beyaz Kule Thames Nehri'nin kuzey kıyısında bulunur. 
+                En başta şehri korumak için yapılan bu kulenin zamanla etrafına eklemeler yapılmıştır. 
+                Eklenen bölümler ile kule idam ve işkence merkezi, cephanelik, devlet hazinesi, hayvanat bahçesi, darphane ve gözlemevi  olarak da hizmet vermiştir. 
+                Yapıldığı günden itibaren kulenin yönetim ve korunması şehriden ayrı yapılmıştır. 
+                1988 yılında ise bu kule UNESCO tarafından Dünya Mirası listesine eklenmiştir.</p>
+
+                <br><br><br><br><br><br>
+
+            <li><b>Tower Bridge</b></li>
+            <img class="img_right" src="tower_bridge_çektiğim.jpg" alt="Tower Bridge">
+            <p class="p">1886 yılında inşasına başlanan köprü Thames Nehri üzerinde yer alır ve şehrin iki yanını birbirine bağlar. 
+                Köprü açılır kapanır olarak inşa edilmişitir. 
+                İki yürüyüş yolu ve bir araba yoluyla birbirine bağlanan iki kuleden oluşur. 
+                Kule gotik bir mimariye sahiptir. 
+                Kuleden merdivenlerle köprüye çıkıp içindeki sergiyi gezebilir ve makine odalarını görebilirsiniz. 
+                Ayrıca köprünün cam tabanından aşağıya bakabilir veya köprüden doğu ve batı tarafı olarak Londra manzarasını izleyebilirisiniz. </p>
+                
+                <br><br><br><br><br><br>
+        </ul>
+
+        <br>
+        <!--Tarihi yerleri tanıtan yazılar.-->
+        <h3>Tarihi Yerler</h3>
+        <ul style="list-style: circle;">
+            <li><b>Hampton Court Sarayı</b></li>
+            <img class="img_left" src="hampton_court_palace.webp" alt="Hampton Palace">
+            <p class="p">1838 yılından beri halka açık olan bir kraliyet sarayıdır. 
+                8. Henry döneminden kalmıştır. Ziyaretçilere kraliyet hayatını deneyimleme ve İngiliz tarhini tekrardan tanıma imkanı sunar. 
+                Sarayda gösterişli odaları, dünyaca ünlü labirenti, 8. Henry'nin apartmanları, Anne Boleyn'in hayaletinin dolaştığı iddia edilen kordidorları, sarayın mutfaklarını ve saray bahçelerini gezebilirsiniz. 
+                Saray bahçeleri dönemin bahçe sanatlarının bir örneğidir ve mevsimlere göre değişir. </p>
+
+                <br><br><br><br><br><br><br>
+
+            <li><b>Big Ben ve Westminster Sarayı</b></li>
+            <img class="img_right" src="big_ben_westminster_palace.jpg" alt="Big Ben & Westminster Palace">
+            <p class="p">Westminster Sarayı İngiliz Parlementosuna ev sahipliği yapan bir yapıdır. 
+                1100 odadan oluşan saray hala parlemento binası olarak kullanılmaktadır. 
+                1837 yılında UNESCO Dünya Mirası olarak ilan edilmiştir.</p>
+            
+            <p class="p">Sarayın yanındaki dünyanın en büyük ikinci dört yüzlü saati Big Ben 96 metre yüksekliğindedir. 
+                Aslında Big Ben saat kulesinin çanının adıdır, resmi adı Elizabeth Kulesi'dir fakat zamanla halk tüm yapıyı belirtmek için Big Ben adını kullanmıştır. 
+                Kuledeki saat 5.5 ton ağırlığındadır ve çaldığında 14 kilometre uzaktan duyulabilir. 
+                İngilizlerin tüm dünyada kültürel simgesi olan bu yapı 1987'den beri UNESCO Dünya Mirası Sit Alanı'nın bir parçasıdır. </p>
+
+                <br><br><br><br><br>
+
+            <li><b>Trafalgar Meydanı ve Nelson Anıtı</b></li>
+            <img class="img_left" src="trafalgar_square_nelsons_column.jpg" alt="Trafalgar Square & Nelson's Column">
+            <p class="p">Adını İngiliz donanmasının Fransız ve İspanyol donanmalarını yendiği Trafalgar Deniz Savaşı'ndan alır. 
+                Meydan bugünkü haline 1845 yılında ulaşmıştır. 
+                1845 yılına kadar uzun yıllar boyunca hükümdarların atlarının ahıl ve eğitim alanı olarak kullanılmıştır. 
+                Meydana çevrilmesinden sonra çevresindeki boşalan alan National Gallery'e çevrilmiştir. 
+                Ayrıca bu meydan önemli zamanlarda kutlama ve etkinliklerin merkezi olmuştur. </p>
+
+            <p class="p">Koramiral Horatio Nelson'ın Trafalgar Savaşı'nda kazandığı ve Fransız keskin nişancı tarafından öldürüldüğü zaferi anmak için yapılmıştır. 
+                1838'de bir grup tarafından bu anıtı dikmek için finanse edilen komite kurulmuştur. 
+                Tasarımlar için ise bir yarışma düzenlenmiş ve en beğenilen tasarım seçilmiştir. 
+                Komiteye yapılan bağışlar ile anıtın yapımına başlanmış ve 1843 yılında yapımı tamamlanmıştır.</p>
+
+                <br><br><br>
+        </ul>
+
+        <br>
+        <!--Doğal alanları tanıtan yazılar.-->
+        <h3>Doğal Alanlar</h3>
+        <ul style="list-style: circle;">
+            <li><b>Hyde Park</b></li>
+            <p class="p">Kraliyet Parkı olarak bilinen 350 dönümlük bu yer Londra'nın en ünlü parkıdır. 
+                Burada bisiklet sürebilir, parkın içinde bulunan gölde kayık turu yapabilir, yürüyüş yapabilir veya piknik yapabilirsiniz.</p>
+
+                <br><br>
+
+            <li><b>Regent's Park</b></li>
+            <img class="img_left" src="regent_park_zoo.jpg" alt="Regent's Park">
+            <p class="p">410 dönüme sahip bu alanda çiçek bahçeleri, spor aktiviteleri yapabileceğiniz yeşil alanlar bulunur ve Londra Hayvanat Bahçesi'ne ev sahipliği yapar. 
+                Hayvanat bahçesi dünyanın en eski bilimsel hayvanat bahçelerinden biridir ve 750 farklı tür bulunur. 
+                Yaz aylarında parkın içindeki açık hava tiyatrosunda gerçekleşen tiyatro, müzikal ve konserlere katılabilirsiniz. 
+                Parkın yanında bulunan Primrose Hill'e çıkarak Londra'ya kuş bakışı bakabilirsiniz.
+            </p>
+
+            <br><br><br><br><br><br>
+
+            <li><b>Richmond Park</b></li>
+            <p class="p">17. yüzyılda 1. Charles tarafından geyik parkı olarak kurulan park 2115 dönümlük alanı ile en büyük Kraliyet Parkıdır. 
+                Parkın içinde bir çok köşk, anıt ve spor alanları bulunur. 
+                Golf, at binme, ragbi ve koşu sporları yapılabilir. 
+                Yaban hayatının korunması amacıyla ulusal ve uluslararası öneme sahip bir yerdir.</p>
+
+                <br><br>
+
+            <li><b>Kew Gardens (Kraliyet Botanik Bahçeleri)</b></li>
+            <img class="img_right" src="kew_gardens.jpg" alt="Kew Gardens">
+            <p class="p">Dünya'nın en ünlü botanik bahçelerinden biridir. 
+                1759 yılında kurulmuştur ve UNESCO Dünya Mirası listesinde bulunur. 
+                Gezilecek farklı türde inşa edilmiş binalar ve yürüyüş yolları bulunur. 
+                Ayrıca burada geçici sergiler, seminerler ve çocuk etkinlikleri düzenlenir. 
+                Kew Explorer treni ile bahçenin her tarafını dolaşabilirsiniz.</p>
+        </ul>
+
+        <br><br><br><br><br><br><br>
+
+    </main>
+    <p style="padding-left: 20px; font-family: Arial, Helvetica, sans-serif; font-size: 15px;">Ana sayfaya dönmek için <a href="index.html">tıklayın.</a></p>
+</body>
+</html>

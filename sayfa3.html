@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sayfa3.html</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        ul{
+            list-style: circle; /*Listenin başındaki işaretlerin şeklini ayarlar.*/
+            margin-left: 15px;
+        }
+        .p{
+            font-family: Arial, Helvetica, sans-serif; /*Yazı tipidir.*/
+            font-size: 15px; /*Yazının boyutunu ayarlar.*/
+            text-align: justify; /*Metni düzgün hizalar.*/
+            margin: 20px auto; /*Ortalamak için*/
+            text-indent: 30px; /*İlk satır boşluğu*/
+            width: 95%; /*İçeriğin genişliği*/
+            padding-left: 5px; /*İçeriğin sol tarafında boşluk oluşturur.*/
+            padding-right: 25px; /*İçeriğin sağ tarafında boşluk oluşturur.*/
+        }
+        li{
+            font-family: Arial, Helvetica, sans-serif; /*Yazı tipidir.*/
+            font-size: 15px; /*Yazının boyutunu ayarlar.*/
+            padding-left: 15px; /*İçeriğin sol tarafında boşluk oluşturur.*/
+            line-height: 2; /*Satırlar arası boşluğu ayarlar.*/
+            padding-right: 25px;
+        }
+        h4{
+            font-size: 19px; /*Yazının boyutunu ayarlar.*/
+            font-family: 'Times New Roman', Times, serif; /*Yazı tipidir.*/
+            padding-left: 25px; /*İçeriğin sol tarafında boşluk oluşturur.*/
+        }
+        h3{
+            font-size: 25px; /*Yazının boyutunu ayarlar.*/
+            text-align: center; /*Yazıyı ortaya ayarlar.*/
+        }
+        .li{
+            padding-left: 20px; /*İçeriğin sol tarafında boşluk oluşturur.*/
+            font-size: 19px; /*Yazının boyutunu ayarlar.*/
+            font-family: 'Times New Roman', Times, serif; /*Yazı tipidir.*/
+        }
+        img{
+            width: 300px; /*Resmin genişliğini ayarlamak için*/
+            height: 200px; /*Resmin yüksekliğini ayarlamak için*/
+            object-fit: cover; /*Resimleri ölçüye taşmadan ve bozulmadan sığdırır.*/
+            border: 5px double black; /*Resimlerin etrafında çerçeve oluşturur.*/
+            padding: 5px; /*İçerik etrafında boşluk oluşturur.*/
+        }
+        .img_1{
+            justify-content: space-between; /*Resimler arasında eşit boşluk bırakır.*/
+            gap: 300px; /*Resimler arası boşluk için*/
+            margin-right: 40px; /*Resmin sağ tarafında boşluk bıraktırır.*/
+            margin-left: 40px; /*Resmin sol tarafında boşluk bıraktırır.*/
+        }
+        body{
+        max-width: 100%; /*Maksimum genişliği pencerenin genişliğine göre sınırlar.*/
+        overflow-x: hidden; /*Sayfanın yatay taşmasını engeller.*/ 
+        margin: 0; /*Tüm dış boşlukları sıfırlar.*/
+        padding: 0; /*Tüm iç boşlukları sıfırlar.*/
+        }
+    </style>
+</head>
+<body class="arka_plan">
+    <header>
+        <h4 style="padding-left: 20px; font-size: 16px;">BİLGİLENDİRME</h4>
+            <p style="padding-left: 20px; font-family: Arial, Helvetica, sans-serif; font-size: 15px;">Bu sayfada Londra'daki yeme-içme mekanları, alışveriş yerleri, kültür ve sanat etkinlikleri hakkında bilgi alacaksınız.</p>
+            <hr>
+    </header>
+    <main>
+        <!--Londra'da yeme ve içme mekanları hakkında bilgi.-->
+        <h3>Yeme-İçme Mekanları</h3>
+        <ol type="I" style="margin-left: 15px;">
+            <li class="li"><b>Sketch</b></li>
+            <p class="p">Sketch 2003 yılında Mourad Mazouz tarafından kurulan 5 farklı konsepte sahip bir restorandır. 
+                Restoran 18. yüzyıldan kalma bir binanın iki katından oluşmaktadır. 
+                Mutfağı 'Yeni Fransız' mutfağı olarak anılmaktadır. 
+                'The Parlour' isimli bölümü kahvaltı ve öğle yemekleri yiyebileceğiniz bir bölümdür. 
+                'The Lecture Room & Library' dedikleri bölüm üç Michelin yıldızına sahip Modern Fransız mutfağının servis edildiği lüks bir restoran bölümüdür. 
+                'The Glade' bölümündeki orman temalı dekorasyon ziyaretçiler arasında çok popülerdir ve genellikle öğle yemeği ve kokteyller için kullanılır. 
+                'The Gallery' pembe tonları ve sanatçı David Shrigley'in tasarımları ile dizayn edilmiş bir salondur. Özellikle ikindi çayı ve akşam yemekleri için tercih edilen bir salondur. 
+                'The East Bar & Pods' farklı içeceklerin sunulduğu bir alandır. 
+                Sketch iç dizaynı, tasarımı ve gastronomik açıdan Londra'da öne çıkan mekanlardan biridir.</p>
+                <img class="img_1" src="sketch_the_lecture.avif" alt="Sketch->The Lecture Room & Library">
+                <img class="img_1" src="sketch_the_glade.jpg" alt="Sketch->The Glade">
+                <img class="img_1" src="sketch_the_gallery.webp" alt="Sketch->The Gallery">
+            
+                <br><br><br>
+
+            <li class="li"><b>Dishoom</b></li>
+            <img class="img_right" src="dishoom.avif" alt="Dishoom">
+            <p class="p">Dishoom 2010 yılında Covent Garden'da açılan şu an Londra'nın farklı bölgelerinde de şubesi bulunan bir mekandır. 
+                Restoran gün boyu hizmet verir ve geniş bir yemek çeşitliliği yelpazesi sunar. 
+                Menüde, Bombay sokak lezzetleri ve geleneksel Hint mutfağından esinlenip oluşturulan yemeklerin modern halleri bulunmaktadır. 
+                Dishoom'un her şubesi farklı bir temaya sahiptir. 
+                İlk açıldığı yer olan Covent Garden şubesi 1960'ların Bombay'ındaki İrani kafelerin atmosferini yansıtacak şekilde oluşturulmuştur. </p>
+
+                <br><br><br><br><br><br>
+            
+            <li class="li"><b>The Ledbury</b></li>
+            <img class="img_right" src="ledbury.jpg" alt="The Ledbury">
+            <p class="p">The Ledbury 2005 yılında Avustralyalı şef Brett Graham tarafından kurulmuştur. 
+                Üç Michelin yıldızına sahip ve dünaynın en iyi 50 restoranı arasında yer almaktadır.
+                Londra'nın Notting Hill bölgesinde bulunur. 
+                Restoranın içi şık ve modern bir tasarıma sahiptir ve rahat bir yemek deneyimi sunar.
+                Restorandaki yemekler Fransız mutfağının İngiliz ve Japon malzemeleriyle harmanlanmış hali ile oluşmaktadır. 
+                Ayrıca restoran menüdeki yemeklerinide kendi bünyesinde yetiştirdikleri mantar ve benzeri malzemeler ile oluşturmaktadır. 
+                Londra'daki en iyi restoranlardan biri kabul edilir. 
+                Hem yerel halk hem de ziyaretçilerin sevdiği bir mekandır.</p>
+
+                <br><br><br><br>
+        </ol>
+        <p class="p" style="text-indent: 0px; padding-left: 30px; "><strong>NOT:</strong>Bu sayfada anlatmış olduğumuz mekanlar Londra kültürüne uygun olduğu için yemek sipariş etmeden önce dikkat etmelisiniz.
+            Yemek yemek için oturduğunuz salonlardaki yemek veya içecek servisine dikkat ederek oturmaya dikkat edin. 
+            Bu sayede daha rahat bir yemek deneyimine sahip olabilirsiniz.</p>
+
+            <br><br><br>
+
+        <!--Londra'daki alışveriş yerleri hakkında bilgi.-->
+        <h3>Alışveriş Yerleri</h3>
+        <ol type="I" style="margin-left: 15px;">
+            <li class="li"><b>Oxford Street</b></li>
+            <img class="img_left" src="oxford_street.jpg" alt="Oxford Street">
+            <p class="p">Orta Çağ'da Tyburn Street olarak adlandırılan bu yol 18. yüzyılda Oxford Street olarak değiştirilmiştir.
+                Oxford Street İngiltere'nin başkenti Londra'da bulunmaktadır. 
+                Burası Londra'nın en popüler ve kalabalık olan yerlerinden biridir. 
+                Ayrıca bu cadde Avrupa'nın en yoğun caddesi olarak kabul edilmektedir. 
+                1.9 km uzunluğunda olan bu cadde 300'den fazla dünyaca ünlü markanın bulunduğu Londra'lıların ve turistlerin alışveriş için mutlaka ziyaret ettiği noktalardan biridir.</p>
+
+                <br><br><br><br><br><br><br><br>
+
+            <li class="li"><b>Covent Garden</b></li>
+            <img class="img_left" src="covent_garden.webp" alt="Covent Garden">
+            <p class="p">Covent Garden Londra'nın merkezinde yer alan 17. yüzyılda meyve sebze pazarı olarak kullanılmak üzere yapılmış bir alandır. 
+                Şu anda ise kafeleri, restoranları, antika ve butik dükkanları ile farklı mağazaların bulunduğu bir yerdir. 
+                Covent Garden'daki cam çatılı binanın önünde bir çok sokak sanatçısı gösteri sergiler. 
+                Ayrıca Covent Garden'a gelmişken bu alanın yanında olan London Transport Museum ve Royal Opera House'u ziyaret edebilirsiniz. 
+                Londra'yı Noel zamanında ziyaret ederseniz mutlaka farklı etkinlikleri ve süslemeleri görmek için burayı ziyaret etmelisiniz.</p>
+
+                <br><br><br><br><br><br><br>
+
+            <li class="li"><b>Regent Street</b></li>
+            <img class="img_left" src="regent_street.jpg" alt="Regent Street">
+            <p class="p">Regent Street 19. yüzyılda ünlü mimar John Nash tarafından tasarlanmıştır. 
+                Londra'nın en ünlü alışveriş caddelerinden biri olarak bilinen bu yer geniş yelpazede mağaza seçenekleri bulunduruyor. 
+                Regent Street ve çevresi lüks moda markaları, şık butikler, dünyaca ünlü mağazalar, ödüllü restoranlar ve sağlıklı yaşam deneyimi sunan yerlerden oluşur. 
+                Etkinlik programı dünya çapında bilinir ve bir çok moda festivali, ikonik Noel ışıklarının yakılması gibi etkinlikleri içerir.</p>
+
+                <br><br><br><br><br><br>
+        </ol>
+
+        <br><br><br>
+        <!--Londra'daki kültür ve sanat etkinlik ve yerleri hakkında bilgi.-->
+        <h3>Kültür ve Sanat</h3>
+        <p class="p" style="margin-left: 25px;">Londra sanat ve kültürle alakalı bir çok etkinlik sunar. Şehirde her zevke ve sanata uygun etkinlik bulmak mümkündür. Bu yazıda şehirde olan etkinlikleri ve etkinliklerin yapıldığı yerler hakkında bilgi alacaksınız.</p>
+        <h4>Müzeler ve Sergiler</h4>
+        <ul>
+            <li><b>British Museum:</b> Antik çağdan modern döneme kadar geniş bir koleksiyon bulundurur.</li>
+            <li><b>Tate Modern:</b> Modern sanat eserlerinin sergilendiği bir müzedir.</li>
+            <li><b>Saatchi Gallery:</b> Çağdaş sanatçıların eserlerinin sergilendiği sergiler bulunur.</li>
+        </ul>
+        <h4>Tiyatrolar</h4>
+        <ul>
+            <li><b>Ulusal Tiyatro:</b> Klasik ve çağdaş tiyatro oyunları oynanır.</li>
+            <li><b>West End:</b> West End tiyatrosu New York'taki Broadway tiyatrosunun Londra versiyonudur. 
+                Burada bir çok müzikal, oyun ve drama gösterileri sergilenmektedir.</li>
+        </ul>
+        <h4>Konser ve Performans Sanatları</h4>
+        <ul>
+            <li><b>Barbican Centre:</b> Avrupa'nın en büyük gösteri sanatları merkezidir. 
+                Londra ve BBC Senfoni Orkestraları'nın gösteri yaptıkları yerdir.</li>
+            <li><b>Royal Albert Hall:</b> Her yıl 350'den fazla etkinlik düzenlenir. 
+                Bu etkinliklerin içinde konserler, opera performansları, ödül törenleri, topluluk organizasyonları ve resmi yemekler gibi farklı etkinlikler bulunmaktadır. </li>
+        </ul>
+        <h4>Sanat Galerileri</h4>
+        <ul>
+            <li><b>Tate Britain:</b> 1500'lü yıllardan günümüze kadar ortaya çıkan eserler bu sergide bulunur.</li>
+            <li><b>The National Gallery:</b> 13. yüzyıl ve 20. yüzyıl arasındaki 2300'den fazla tabloya ev sahipiliği yapar. Giriş ücretsizdir.</li>
+        </ul>  
+        <h4>Film ve Sinema</h4>
+        <ul>
+            <li><b>BFI Southbank:</b> 1951 yılında açılan bu yer klasik, bağımsız ve İngilizce olmayan filmlerin izlendiği yerdir.</li>
+            <li><b>Londra Film Festivali:</b> 50 yıldır düzenlenen bu festivalde bir çok ülkeden 300'ü aşkın film gösterilir.</li>
+        </ul>
+        <h4>Edebiyat ve Şiir</h4>
+        <ul>
+            <li><b>British Library:</b> Dünyanın en büyük kütüphanelerinden biri olan bu kütüphane 14 milyon kitap ve 170 milyon ögeye ev sahipliği yapar. </li>
+        </ul>
+        <h4>Dans ve Bale</h4>      
+        <ul>
+            <li><b>Royal Opera House:</b> Diğer adı ile 'Covent Garden Operası' diye de bilinir. 
+                Opera ve bale gösterilerinin sergilendiği bir yerdir.</li>
+        </ul>
+
+        <br>
+
+    </main>
+    <p style="padding-left: 20px; font-family: Arial, Helvetica, sans-serif; font-size: 15px;">Ana sayfaya dönmek için <a href="index.html">tıklayın.</a></p>
+</body>
+</html>
